@@ -1,0 +1,150 @@
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 136px;
+  padding: 100px;
+  background-color: #665f55;
+  border-radius: 40px;
+  flex: 0 0 auto;
+}
+
+.message-title {
+  color: #e1d4c9;
+  font-family: Inter;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 75px;
+}
+
+.message-subtitle {
+  color: #b0907a;
+  font-family: Inter;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 75px;
+  margin: 0 0 40px 0;
+}
+
+.message-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.message-twitter,
+.message-instagram,
+.message-facebook {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #c1b6ad;
+  border-radius: 50%;
+}
+
+.message-twitter-icon,
+.message-instagram-icon,
+.message-facebook-icon {
+  stroke: #e1d4c9;
+}
+
+.message-twitter:hover .message-twitter-icon,
+.message-instagram:hover .message-instagram-icon,
+.message-facebook:hover .message-facebook-icon {
+  stroke: #403f3d;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.message-twitter:hover,
+.message-instagram:hover,
+.message-facebook:hover {
+  background-color: #e1d4c9;
+  border: 1px solid #e1d4c9;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.footer-info {
+  align-self: flex-start;
+  padding: 33px 0 0 0;
+}
+
+.footer-contact {
+  color: #e1d4c9;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 0 0 39px 0;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 0 16px 0;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 0 17px 0;
+}
+
+.address-row,
+.phone-row,
+.clock {
+  display: flex;
+}
+
+.address:hover,
+.phone:hover {
+  cursor: pointer;
+}
+
+.address-icon,
+.phone-icon,
+.clock-icon {
+  padding: 0 8px 2px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.address-text,
+.phone-text,
+.clock-text {
+  color: #e1d4c9;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 0 0 2px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.lines-wrap-address {
+  width: 180px;
+  height: 3px;
+  margin: -4px 0 0 0;
+}
+
+.lines-wrap-phone {
+  width: 177px;
+  height: 3px;
+  margin: -3px 0 0 0;
+}
+
+.lines-item-address,
+.lines-item-phone {
+  width: 0;
+  background-color: #e1d4c9;
+}
+
+.footer-address:hover .lines-item-address,
+.footer-phone:hover .lines-item-phone {
+  width: 100%;
+  transition: 1s;
+}

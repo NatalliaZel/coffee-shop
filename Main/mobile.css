@@ -1,0 +1,109 @@
+.mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  margin: 0 0 98px 0;
+}
+
+.mobile-title {
+  color: #403f3d;
+  font-family: Inter;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 75px;
+  margin: 0 0 40px 0;
+}
+
+.mobile-title span {
+  color: #b0907a;
+  font-style: italic;
+}
+
+.mobile-text {
+  color: #403f3d;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 40px 0;
+}
+
+.mobile-button {
+  display: flex;
+}
+
+.mobile-app,
+.mobile-google {
+  width: 200px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px solid #665f55;
+  padding: 0 0 0 11px;
+}
+
+.mobile-app:hover,
+.mobile-google:hover {
+  background-color: #665f55;
+  border: 1px solid #665f55;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.mobile-app:hover .app-avalable,
+.mobile-google:hover .google-avalable {
+  color: #e1d4c9;
+  transition: 1s;
+}
+
+.mobile-app:hover .app-app,
+.mobile-google:hover .google-google {
+  color: #e1d4c9;
+  transition: 1s;
+}
+
+.mobile-app:hover .app-img svg,
+.mobile-google:hover .google-img svg {
+  fill: #e1d4c9;
+  transition: 1s;
+}
+
+.mobile-app {
+  margin: 0 20px 0 0;
+}
+
+.app-img,
+.google-img {
+  margin: 3px 9px 0 8px;
+}
+
+.app-img svg,
+.google-img svg {
+  fill: #403f3d;
+}
+
+.app-avalable,
+.google-avalable {
+  color: #403f3d;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 14px;
+  margin: -1px 0 3px 0;
+}
+
+.app-app,
+.google-google {
+  color: #403f3d;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.mobile-image img {
+  width: 630px;
+  height: 630px;
+}

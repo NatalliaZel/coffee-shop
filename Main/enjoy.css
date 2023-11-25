@@ -1,0 +1,85 @@
+.main {
+  flex: 1 1 auto;
+}
+
+.enjoy-wrapper {
+  width: 1360px;
+  border-radius: 40px;
+  background: url(../Assets/Images/Images_main/cover.jpg) no-repeat 50% 50% /
+    cover;
+  margin: 0 0 100px 0;
+}
+
+.enjoy-content {
+  padding: 100px 100px 100px 100px;
+}
+
+.enjoy-title {
+  width: 530px;
+  margin: 0 0 37px 0;
+  color: #e1d4c9;
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 76.5px;
+}
+
+.enjoy-title span {
+  color: #b0907a;
+  font-style: italic;
+}
+
+.enjoy-text {
+  color: #e1d4c9;
+  width: 530px;
+  margin: 0 0 40px 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.enjoy-button {
+  width: 200px;
+  height: 64px;
+  padding: 20px 78px 20px 105px;
+  border-radius: 100px;
+  background-color: #e1d4c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enjoy-button-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.enjoy-button:hover {
+  cursor: pointer;
+}
+
+.enjoy-button:hover {
+  padding: 20px 78px;
+  transition: 1s;
+}
+
+.enjoy-button:hover .enjoy-button-icon {
+  stroke: #403f3d;
+  transition: 1s;
+}
+
+.enjoy-button-text {
+  color: #403f3d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.enjoy-button-icon {
+  fill: transparent;
+  stroke: transparent;
+}

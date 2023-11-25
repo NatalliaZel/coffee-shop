@@ -1,0 +1,36 @@
+@import url(normalize.css);
+@import url(header.css);
+@import url(surprise.css);
+@import url(footer.css);
+
+@font-face {
+  font-family: "Inter";
+  src: url("../Assets/Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../Assets/Fonts/Inter/Inter-BoldItalic.ttf");
+  font-style: italic;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../Assets/Fonts/Inter/Inter-Regular.ttf");
+  font-weight: 400;
+}
+
+body {
+  background-color: #e1d4c9;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
